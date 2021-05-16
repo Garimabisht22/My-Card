@@ -1,0 +1,42 @@
+name: my_card
+description: My Business Card
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Dancing Script
+      fonts:
+        - asset: assets/fonts/DancingScript-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+    - family: Lora
+      fonts:
+        - asset: assets/fonts/Lora-italic.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf
+    - family: Source Sans Pro
+      fonts:
+        - asset: assets/fonts/SourceSansPro-Light.ttf
+        - asset: assets/fonts/SourceSansPro-ExtraLight.ttf
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
